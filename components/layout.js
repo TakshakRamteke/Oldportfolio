@@ -1,5 +1,6 @@
 import styles from './layout.module.css'
 import Section1 from './section1'
+import NavSection from './navsection'
 export default function Layout({children}){
     return (
         <>
@@ -12,12 +13,7 @@ export default function Layout({children}){
 	    </header>
         <main className={styles.main}>
             <Section1></Section1>
-        <section className={styles.sec2}>
-            <div className={styles.row}></div>
-            <div className={styles.row}></div>
-            <div className={styles.row}></div>
-            <div className={styles.row}></div>
-        </section>
+            <NavSection></NavSection>
         </main>
         </>
     )
