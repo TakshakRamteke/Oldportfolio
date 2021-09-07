@@ -7,8 +7,16 @@ export default function Layout({children, home}){
         <header>
 		  <nav className={styles.nav}>
 			  <div className={styles.logo}>LOGO</div>
-			  <div className={styles.join}>FORK</div>
-			  <div className={styles.contrib}>CONTRIBUTE</div>
+			  <div className={styles.join}>
+                  <a href="https://github.com/TakshakRamteke/1st-nextjs-project" className={styles.link}>
+                      FORK
+                </a>
+                </div>
+			  <div className={styles.contrib}>
+                  <a href="https://github.com/TakshakRamteke/1st-nextjs-project" className={styles.link}>
+                    CONTRIBUTE
+                  </a>
+                </div>
 		  </nav>
 	    </header>
         <main className={styles.main}>
