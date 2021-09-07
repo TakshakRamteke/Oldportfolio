@@ -1,6 +1,6 @@
 import styles from './navsection.module.css'
 
-export default function NavSection(){
+export default function NavSection({children}){
     return (
         <>
         <section className={styles.sec2}>
