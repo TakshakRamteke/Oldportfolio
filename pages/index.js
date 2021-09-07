@@ -17,6 +17,7 @@ export default function Home() {
           src = "/images/takshak.jpg"
           width = {250}
           height = {250}
+          alt = "TakshakRamteke"
         />
         <h2 className = {styles.headingM}>Hey 👋, I'm </h2>
         <h1 className={styles.headingXL}>Takshak Ramteke</h1>
