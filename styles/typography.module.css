@@ -1,5 +1,5 @@
 .headingXL{
-    padding-top: .5em;
+    padding-top: .3em;
     font-size: 4.5em;
     font-weight: bolder;
     color: rgb(64, 64, 235);
@@ -7,7 +7,7 @@
 }
 .headingM{
     padding-top: .5em;
-    font-size: 2.5em;
+    font-size: 2.3em;
     color: black;
     -webkit-text-stroke: 2px black;
 }
@@ -20,6 +20,9 @@
 @media screen and (max-width: 786px) {
     .headingXL{
         font-size: 2.5em;
+    }
+    .headingM{
+        font-size: 1.8em;
     }
     .tagline{
         font-size: 1.5em;
