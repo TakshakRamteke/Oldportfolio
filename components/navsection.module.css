@@ -17,12 +17,12 @@
 @media screen and (max-width: 786px){
     .sec2{
         width: 100%;
-        height: 3em;
+        height: 4em;
         flex-direction: row;
     }
     .row{
         width: 25%;
-        height: 3em;
+        height: 4em;
         border-right: 2px solid black;
     }
     .sec2:last-child{
