@@ -17,8 +17,8 @@ export default function Home() {
             priority
             className = {imgstyl.circleImage}
             src = "/images/takshak.jpg"
-            width = {250}
-            height = {250}
+            width = {200}
+            height = {200}
             alt = "TakshakRamteke"
           />
           <h2 className = {styles.headingM}>Hey 👋, I'm </h2>
