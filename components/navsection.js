@@ -7,12 +7,12 @@ export default function NavSection({children}){
         <section className={styles.sec2}>
             <div className={styles.row}>
                 <Link href="/">
-                    <a className={styles.linktext}><h1>About me →</h1></a>
+                    <a className={styles.linktext}><h1>About →</h1></a>
                 </Link>
             </div>
             <div className={styles.row}>
             <Link href="/">
-                    <a className={styles.linktext}><h1>Contact me →</h1></a>
+                    <a className={styles.linktext}><h1>Contact →</h1></a>
                 </Link>
             </div>
             <div className={styles.row}>
