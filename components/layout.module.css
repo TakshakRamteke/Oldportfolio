@@ -1,6 +1,6 @@
 .nav{
   height: max-content;
-  border: 1.5px solid black;
+  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,8 @@
   font-size: 2.5em;
   font-weight: bolder;
   height: inherit;
-  padding-right: .3em;
+  padding-right: 10px;
+  padding-left: 10px;
   border-right: 2px solid black;
 }
 .join{
@@ -34,8 +35,8 @@
 }
 .main{
   display: flex;
-  height: calc(100vh - 46px);
-  border-bottom: 2px solid black;
+  height: calc(100vh - 43px);
+
 }
 @media screen and (max-width: 786px){
   .nav{
@@ -44,7 +45,18 @@
   .logo, .join, .contrib{
       font-size: 1.5em;
   }
+  .logo{
+    padding-left: 10px;
+    border-right: 1px solid black;
+  }
+  .join{
+    border-left: 1px solid black;
+  }
+  .contrib{
+    border-left: 1px solid black;
+  }
   .main{
       flex-direction: column-reverse;
+      height: calc(96vh)
   }
 }

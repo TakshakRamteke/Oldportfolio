@@ -29,6 +29,7 @@
     -webkit-text-stroke: 1px black;
 }
 .taglineS{
+    list-style: none;
     padding: 5em 5em 1em 5em;
     text-align: justify;
     padding-top: 1em;
