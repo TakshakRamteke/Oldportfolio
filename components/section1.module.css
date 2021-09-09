@@ -2,11 +2,12 @@
     width: 80%;
     height: inherit;
     border: 1px solid black;
+  
   }
 
   @media screen and (max-width: 786px){
     .sec1{
         width: 100%;
-        border-bottom: 2px solid black;
+        border-top: 0 none;
     }
   }

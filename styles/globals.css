@@ -7,7 +7,8 @@
 }
 html, body{
     font-family: 'Ubuntu Mono', monospace;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+    border-bottom: 0 none;
     overflow: hidden;
 }
 
