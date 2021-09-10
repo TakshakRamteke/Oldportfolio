@@ -26,6 +26,12 @@
     font-size: 1.8em;
     font-weight: bolder;
 }
+.active{
+    padding: 12px 12px 12px 12px;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: rgb(64, 64, 235);
+}
 .linktext:hover{
     color: rgb(64, 64, 235);
 }
@@ -47,6 +53,9 @@
         border-right: 1px solid black;
     }
     .linktext{
+        font-size: .7em;
+    }
+    .active{
         font-size: .7em;
     }
     .row:last-child{
