@@ -24,7 +24,7 @@ export default function NavSection({children}){
                 </Link>
             </div>
             <div className={styles.row}>
-            <Link href="/">
+            <Link href="/contact">
                     <a className={isActive('/contact') ? styles.active : styles.linktext}>
                         <h1>Contact →</h1>
                     </a>
