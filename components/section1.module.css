@@ -2,12 +2,17 @@
     width: 80%;
     height: inherit;
     border: 1px solid black;
-  
   }
 
   @media screen and (max-width: 786px){
     .sec1{
         width: 100%;
         border-top: 0 none;
+    }
+  }
+  @media screen and (max-height: 699px) {
+    .sec1{
+      overflow-x: scroll;
+      overflow-y: hidden;
     }
   }

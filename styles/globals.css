@@ -16,3 +16,6 @@ a {
   color: inherit;
   text-decoration: none;
 }
+::-webkit-scrollbar{
+  width: 0px;
+}
