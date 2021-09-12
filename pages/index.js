@@ -16,6 +16,7 @@ export default function Home() {
           <Image
             priority
             className = {imgstyl.circleImage}
+            responsive
             src = "/images/takshak.jpg"
             width = {200}
             height = {200}
