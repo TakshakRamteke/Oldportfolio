@@ -3,7 +3,10 @@
     height: inherit;
     border: 1px solid black;
   }
-
+.love{
+  font-size: 1.3em;
+  text-align: center;
+}
   @media screen and (max-width: 786px){
     .sec1{
         width: 100%;
@@ -14,5 +17,8 @@
     .sec1{
       overflow-x: scroll;
       overflow-y: hidden;
+    }
+    .love{
+      font-size: .9em;
     }
   }

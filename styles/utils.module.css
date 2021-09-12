@@ -1,5 +1,5 @@
 .container{
-    height: inherit;
+    height: 91vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -8,6 +8,6 @@
 }
 @media screen and (max-width:786px) {
     .container{
-        height: calc(100vh - 8em);
+        height: 84vh;
     }
 }
