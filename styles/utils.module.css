@@ -2,7 +2,7 @@
     height: 91vh;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     justify-content: center;
     align-items: center;
 }

@@ -31,14 +31,14 @@ export default function NavSection({children}){
                 </Link>
             </div>
             <div className={styles.row}>
-            <Link href="/">
+            <Link href="/projects">
                     <a className={isActive('/projects') ? styles.active : styles.linktext}>
                         <h1>Projects →</h1>
                     </a>
                 </Link>
             </div>
             <div className={styles.row}>
-            <Link href="/">
+            <Link href="/myart">
                     <a className={isActive('/myart') ? styles.active : styles.linktext}>
                         <h1> My art →</h1>
                     </a>
