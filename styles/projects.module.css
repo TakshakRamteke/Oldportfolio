@@ -1,5 +1,4 @@
 .projectArea{
-    margin-top: 20%;
     padding-top: 5%;
     padding-bottom: 2em;
     display: flex;
@@ -51,13 +50,17 @@
     .projectArea{
         flex-direction: column;
         height: fit-content;
-        overflow-y: auto;
+        overflow-y: hidden;
     }
     .projectArea::before{
-        content: "→ scroll for more";
+        content: "→ Please scroll this way";
+	font-size: 2em;
+	padding: 50%;
+	padding-left: 3em;
+	padding-right: 3em;
         color: rgb(64, 64, 235);
     }
-    /*.projectCard{
-        width: 200px;
-    }*/
+    .projectCard{
+	    margin: 1em;
+    }
 }
