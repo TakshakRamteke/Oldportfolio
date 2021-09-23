@@ -21,7 +21,9 @@ export default function Layout({children, home}){
 		  <nav className={styles.nav}>
 			  <div className={isActive('/') ? styles.logoActive : styles.logo}>
                   <Link href="/">
-                  <a>HOME</a>
+                  <a className={styles.link}>
+                      HOME
+                    </a>
                 </Link>
                   
                 </div>
@@ -31,9 +33,11 @@ export default function Layout({children, home}){
                 </a>
                 </div>
 			  <div className={styles.contrib}>
-                  <a href="https://github.com/TakshakRamteke/1st-nextjs-project" className={styles.link}>
-                    CONTRIBUTE
-                  </a>
+                  <Link href="#">
+                    <a className={styles.link}>
+                        Experience
+                    </a>
+                  </Link>
                 </div>
 		  </nav>
 	    </header>
