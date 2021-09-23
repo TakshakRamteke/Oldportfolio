@@ -45,6 +45,9 @@
     background-color: black;
     border: 1px solid black;
 }
+.link{
+    color: rgb(64, 64, 235);
+}
 @media screen and (max-width: 786px) {
     .headingXL{
         font-size: 2.5em;
