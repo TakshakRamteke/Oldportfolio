@@ -11,7 +11,7 @@ export default function myArt(){
         </Head>
         <Layout>
             <div className={utilStyle.container}>
-                <p className={typoStyle.taglineS}>
+                <p className={typoStyle.paragraph}>
                     Hey 👋, Thanks for visiting this page (and my portfolio 🙂), 
                     Although I don't really draw as often but over time the sketches 
                     have piled up so i decided to Add the sketches to a Github Repo. 

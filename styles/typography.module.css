@@ -48,6 +48,14 @@
 .link{
     color: rgb(64, 64, 235);
 }
+.paragraph{
+    padding: 5em 5em 1em 5em;
+    text-align: justify;
+    padding-top: 1em;
+    line-height: 1.5;
+    font-size: 1.7em;
+    color: black;
+}
 @media screen and (max-width: 786px) {
     .headingXL{
         font-size: 2.5em;
@@ -68,6 +76,10 @@
     .taglineS{
         padding: 1em 2em 0em 2em;
         font-size: .8em;
+    }
+    .paragraph{
+        padding: 1em 2em 0em 2em;
+        font-size: 1.2em;
     }
     .dripyHeading{
         font-size: 1.4em;
