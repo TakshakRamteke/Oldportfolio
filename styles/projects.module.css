@@ -24,28 +24,6 @@
     border-radius: 0.5em;
     margin-bottom: 10px
 }
-.projectTittle{
-    text-align: center;
-    padding-top: 5px;
-    font-size: 1.8em;
-    font-weight: bolder;
-    margin-bottom: 8px;
-}
-.projectTittle:hover{
-    color: rgb(64, 64, 235);
-    text-decoration: underline;
-}
-.projectDate{
-    font-size: .9em;
-    color: grey;
-    align-self: flex-start;
-    padding-left: 5px;
-    margin-bottom: 10px;
-}
-.projectAbout{
-    font-size: 1.3em;
-    padding: 5px 5px 5px 5px;
-}
 @media screen and (max-width: 786px) {
     .projectArea{
         flex-direction: column;
@@ -53,11 +31,11 @@
         overflow-y: hidden;
     }
     .projectArea::before{
-        content: "→ Please scroll this way";
-	font-size: 2em;
-	padding: 50%;
-	padding-left: 3em;
-	padding-right: 3em;
+        content: "Please scroll this way →";
+        font-size: 2em;
+        padding: 50%;
+        padding-left: 2em;
+        padding-right: 2em;
         color: rgb(64, 64, 235);
     }
     .projectCard{

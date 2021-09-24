@@ -17,23 +17,16 @@ export default function Projects(){
                     <div className={projectStyle.projectArea}>
                         <div className={projectStyle.projectCard}>
                             <div className={projectStyle.projectDetail}>
-                                <Image className={projectStyle.projectImage} src="/projects/AlienInvasion.png" width={300} height={172}/>
-                                <div className={projectStyle.projectTittle}><a href="https://github.com/TakshakRamteke/AlienInvasion" target="_blank">AlienInvasion</a></div>
-                                <div className={projectStyle.projectDate}>Apr, 2021 - Present</div>
-                                <div className={projectStyle.projectAbout}>
-                                    A simple 2D game made with python's Pygame library. A clone of Space Invaders.
-                                </div>
+                                <a href="https://github.com/TakshakRamteke/AlienInvasion">
+                                    <Image className={projectStyle.projectImage} src="/projects/alieninvasion.jpg" width={1200} height={600}/>  
+                                </a>
                             </div>
                         </div>
                         <div className={projectStyle.projectCard}>
                             <div className={projectStyle.projectDetail}>
-                                <Image className={projectStyle.projectImage} src="/projects/prankboard.png" width={300} height={172}/>
-                                <div className={projectStyle.projectTittle}><a href="https://github.com/TakshakRamteke/prankboard-Ble" target="_blank">PrankBoard-Ble</a></div>
-                                <div className={projectStyle.projectDate}>Aug, 2021 - Present</div>
-                                <div className={projectStyle.projectAbout}>
-                                    Something similar to a USB Rubber ducky but over Bluetooth
-                                    instead of USB.
-                                </div>
+                                <a href="https://github.com/TakshakRamteke/prankboard-Ble">
+                                    <Image className={projectStyle.projectImage} src="/projects/prankboard-ble.jpg" width={1200} height={600}/>
+                                </a>
                             </div>
                         </div>
                     </div>
