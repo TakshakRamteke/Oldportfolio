@@ -27,13 +27,13 @@ export default function Layout({children, home}){
                 </Link>
                   
                 </div>
-			  <div className={styles.join}>
-                  <a href="https://github.com/TakshakRamteke/1st-nextjs-project" className={styles.link}>
-                      FORK
+			  <div className={styles.resume}>
+                  <a href="https://drive.google.com/file/d/1HtIcaywIU4wXDGk6f9RmWEQzVz31JtP1/view?usp=sharing" target="_blank" className={styles.link}>
+                      Resume
                 </a>
                 </div>
-			  <div className={styles.contrib}>
-                  <Link href="#">
+			  <div className={isActive('/experiences') ? styles.experienceActive : styles.experience}>
+                  <Link href="/experiences">
                     <a className={styles.link}>
                         Experience
                     </a>
