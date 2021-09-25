@@ -60,7 +60,7 @@
   .nav{
       height: max-content;
   }
-  .logo, .join, .contrib, .logoActive{
+  .logo, .join, .contrib, .logoActive, .contribActive{
       font-size: 1.5em;
   }
   .logo{
@@ -70,7 +70,7 @@
   .join{
     border-left: 1px solid black;
   }
-  .contrib{
+  .contrib, .contribActive{
     border-left: 1px solid black;
   }
   .main{
