@@ -22,7 +22,7 @@
   padding-left: 10px;
   border-right: 1px solid black;
 }
-.join{
+.resume{
   font-size: 2.5em;
   font-weight: bolder;
   height: inherit;
@@ -34,7 +34,7 @@
 .link:hover{
   color: rgb(64, 64, 235);
 }
-.contrib{
+.experience{
   font-size: 2.5em;
   font-weight: bolder;
   height: inherit;
@@ -42,7 +42,7 @@
   padding-left: .3em;
   border-left: 2px solid black;
 }
-.contribActive{
+.experienceActive{
   font-size: 2.5em;
   font-weight: bolder;
   height: inherit;
@@ -60,17 +60,17 @@
   .nav{
       height: max-content;
   }
-  .logo, .join, .contrib, .logoActive, .contribActive{
+  .logo, .resume, .experience, .logoActive, .experienceActive{
       font-size: 1.5em;
   }
   .logo{
     padding-left: 10px;
     border-right: 1px solid black;
   }
-  .join{
+  .resume{
     border-left: 1px solid black;
   }
-  .contrib, .contribActive{
+  .experience, .experienceActive{
     border-left: 1px solid black;
   }
   .main{
