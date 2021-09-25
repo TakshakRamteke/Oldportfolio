@@ -82,7 +82,8 @@
 
 @media screen and (max-width: 768px){
     .headingL{
-        font-size: 1.7em;
+		padding-top: .8em;
+        font-size: 1.8em;
     }
     .timelineItems::before{
 		left: 7px;
