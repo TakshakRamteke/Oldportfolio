@@ -32,8 +32,8 @@ export default function Layout({children, home}){
                       FORK
                 </a>
                 </div>
-			  <div className={styles.contrib}>
-                  <Link href="#">
+			  <div className={isActive('/experiences') ? styles.contribActive : styles.contrib}>
+                  <Link href="/experiences">
                     <a className={styles.link}>
                         Experience
                     </a>

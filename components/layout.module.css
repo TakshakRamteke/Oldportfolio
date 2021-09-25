@@ -42,6 +42,15 @@
   padding-left: .3em;
   border-left: 2px solid black;
 }
+.contribActive{
+  font-size: 2.5em;
+  font-weight: bolder;
+  height: inherit;
+  padding-right: .3em;
+  padding-left: .3em;
+  border-left: 2px solid black;
+  color: rgb(64, 64, 235);
+}
 .main{
   display: flex;
   height: calc(100vh - 43px);
