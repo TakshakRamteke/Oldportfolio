@@ -21,7 +21,7 @@ export default function myArt(){
                     You can find that repo 👉 <a className={typoStyle.link} href="https://github.com/TakshakRamteke/some-of-My-Art">here</a>
                     <br/>
                     <br/>
-                    Hope You Like it, If you do please feel free to let me know 😄
+                    Hope You Like it, If you do please feel free to <a className={typoStyle.link} href="https://github.com/TakshakRamteke/some-of-My-Art/discussions"> let me know </a> 😄
                 </p>
             </div>
         </Layout>
