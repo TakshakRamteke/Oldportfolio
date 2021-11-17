@@ -52,7 +52,7 @@ export default function Experience(){
                                     </div>
                                     <div className={expStyle.timelineItem}>
                                         <div className={expStyle.timelineDot}></div>
-                                        <div className={expStyle.timelineDate}>Apr 2021 - Present</div>
+                                        <div className={expStyle.timelineDate}>Apr 2021 - Oct 2021</div>
                                         <div className={expStyle.timelineContent}>
                                             <h3>Member</h3>
                                             <p>IEEE Bombay Section Website Team</p>
