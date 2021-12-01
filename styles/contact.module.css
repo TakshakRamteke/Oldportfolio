@@ -10,6 +10,62 @@
 .contactContainerElement{
     padding: .5em .5em .5em .5em;
 }
+.H3{
+    font-size: 1.8em;
+    margin: 1em 1em 0.5em 1em;
+}
 .logo{
     font-size: 3em;
+}
+.form{
+    width: 60%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    padding: 1em 1em 1em 1em;
+    border: 1px solid black;
+    box-shadow: 0.5em 0.5em 0 black;
+}
+.form div{
+    margin: 0.5em 0.5em 0.5em 0.5em;
+}
+.form div input{
+    border: 1px solid black;
+    width: 40%;
+}
+.form label{
+    font-size: 1.5em;
+    font-weight: 500;
+    
+}
+.submit{
+    border: 0px none;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    background-color: black;
+    color: white;
+    align-self: flex-end;
+    font-size: 1em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 2em;
+}
+
+@media screen and (max-width: 786px) {
+    .H3{
+        font-size: 1.4em;
+    }
+    .form{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .form div{
+        display: flex;
+        flex-direction: column;
+    }
+    .form div input{
+        width: 50%;
+        height: 3vh;
+        margin-left: auto;
+    }
 }

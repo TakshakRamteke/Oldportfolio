@@ -44,6 +44,23 @@ export default function Contact(){
                         
                     </li>
                 </ul>
+                <h3 className={contactStyle.H3}>If i can help you with something  </h3>
+                <h3 className={contactStyle.H3}> just 'Drop a HI'</h3>
+                <form className={contactStyle.form}>
+                    <div>
+                        <label>Your Name : </label>
+                        <input type="text"/>
+                    </div>
+                    <div>
+                        <label>Your Email : </label>
+                        <input type="email"/>
+                    </div>
+                    <div>
+                        <label>Your Message : </label>
+                        <input type="text"/>
+                    </div>
+                    <input type="submit" className={contactStyle.submit}/>
+                </form>
                 </div>
         </Layout>
         </>
