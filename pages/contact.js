@@ -4,6 +4,9 @@ import typoStyle from '../styles/typography.module.css'
 import utilStyle from '../styles/utils.module.css'
 import Image from 'next/image'
 import contactStyle from '../styles/contact.module.css'
+import { ReactElement } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithubSquare, faTwitterSquare, faLinkedin, faGooglePlusSquare } from '@fortawesome/free-brands-svg-icons'
 
 export default function Contact(){
     return (
@@ -18,41 +21,25 @@ export default function Contact(){
                 <ul className={contactStyle.contactContainer}>
                     <li className={contactStyle.contactContainerElement}>
                         <a href="https://github.com/TakshakRamteke" target="_blank">
-                        <Image
-                            src='/icons/contact/github.png'
-                            width={60}
-                            height={60}
-                        />
+                        <FontAwesomeIcon icon = {faGithubSquare} className={contactStyle.logo}/>
                         </a>
                         
                     </li>
                     <li className={contactStyle.contactContainerElement}>
                         <a href="https://twitter.com/TakshakRamteke" target="_blank">
-                        <Image
-                            src='/icons/contact/twitter.png'
-                            width={60}
-                            height={60}
-                        />
+                        <FontAwesomeIcon icon = {faTwitterSquare} className={contactStyle.logo}/>
                         </a>
                         
                     </li>
                     <li className={contactStyle.contactContainerElement}>
                         <a href="https://www.linkedin.com/in/takshak-ramteke-15b840206/" target="_blank">
-                        <Image
-                            src='/icons/contact/linkedin.png'
-                            width={60}
-                            height={60}
-                        />
+                        <FontAwesomeIcon icon = {faLinkedin} className={contactStyle.logo}/>
                         </a>
                         
                     </li>
                     <li className={contactStyle.contactContainerElement}>
                         <a href="mailto:takshakramteke0708@gmail.com" target="_blank">
-                        <Image
-                            src='/icons/contact/gmail.png'
-                            width={60}
-                            height={60}
-                        />
+                        <FontAwesomeIcon icon = {faGooglePlusSquare} className={contactStyle.logo}/>
                         </a>
                         
                     </li>
