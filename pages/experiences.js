@@ -30,14 +30,6 @@ export default function Experience(){
                                     <div className={expStyle.timelineDot}></div>
                                     <div className={expStyle.timelineDate}>Aug 2021 - Present</div>
                                     <div className={expStyle.timelineContent}>
-                                        <h3>Contributor</h3>
-                                        <p>GWOC'21 (GirlScript Winter of Code)</p>
-                                    </div>
-                                </div>
-                                <div className={expStyle.timelineItem}>
-                                    <div className={expStyle.timelineDot}></div>
-                                    <div className={expStyle.timelineDate}>Aug 2021 - Present</div>
-                                    <div className={expStyle.timelineContent}>
                                         <h3>Student Representative</h3>
                                         <p>IEEE PES HAC Executive Commitee</p>
                                     </div>
@@ -57,6 +49,14 @@ export default function Experience(){
                                             <h3>Member</h3>
                                             <p>IEEE Bombay Section Website Team</p>
                                         </div>
+                                    </div>
+                                    <div className={expStyle.timelineItem}>
+                                        <div className={expStyle.timelineDot}></div>
+                                            <div className={expStyle.timelineDate}>Aug 2021 - Nov 2021</div>
+                                                <div className={expStyle.timelineContent}>
+                                                    <h3>Contributor</h3>
+                                                    <p>GWOC'21 (GirlScript Winter of Code)</p>
+                                                 </div>
                                     </div>
                                     <div className={expStyle.timelineItem}>
                                         <div className={expStyle.timelineDot}></div>
