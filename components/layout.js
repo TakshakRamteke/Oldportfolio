@@ -19,28 +19,27 @@ export default function Layout({children, home}){
         <body>
         <header>
 		  <nav className={styles.nav}>
-			  <div className={isActive('/') ? styles.logoActive : styles.logo}>
-                  <Link href="/">
-                  <a className={styles.link}>
-                      HOME
-                    </a>
-                </Link>
-                  
-                </div>
-			  <div className={styles.resume}>
-                  <a href="https://drive.google.com/file/d/1RkPKeYdRro9b0eOpbUw2NBgFVNd_KgWa/view?usp=sharing" target="_blank" className={styles.link}>
-                      Resume
-                </a>
-                </div>
-			  <div className={isActive('/experiences') ? styles.experienceActive : styles.experience}>
-                  <Link href="/experiences">
-                    <a className={styles.link}>
-                        Experience
-                    </a>
-                  </Link>
-                </div>
-		  </nav>
-	    </header>
+			<div className={isActive('/') ? styles.logoActive : styles.logo}>
+			  <Link href="/">
+				  <a className={styles.link}>
+				      HOME
+				  </a>
+			   </Link>
+			</div>
+			<div className={styles.resume}>
+			  <a href="https://drive.google.com/file/d/1qo7R5gAQCpc6lWUZfq3etV-wV7tJjl6U/view?usp=sharing" target="_blank" className={styles.link}>
+			      Resume
+			  </a>
+			</div>
+			<div className={isActive('/experiences') ? styles.experienceActive : styles.experience}>
+			  <Link href="/experiences">
+			    <a className={styles.link}>
+				Experience
+			    </a>
+			  </Link>
+			</div>
+		   </nav>
+	  </header>
         <main className={styles.main}>
             <Section1>{children}</Section1>
             <NavSection></NavSection>
