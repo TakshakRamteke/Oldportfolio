@@ -27,7 +27,7 @@ export default function Layout({children, home}){
 			   </Link>
 			</div>
 			<div className={styles.resume}>
-			  <a href="https://drive.google.com/file/d/1qo7R5gAQCpc6lWUZfq3etV-wV7tJjl6U/view?usp=sharing" target="_blank" className={styles.link}>
+			  <a href="https://drive.google.com/file/d/1oPVOMhmW87ZLjEMMQbNatiNWZHXrMX_t/view?usp=sharing" target="_blank" className={styles.link}>
 			      Resume
 			  </a>
 			</div>
