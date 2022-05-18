@@ -3,6 +3,7 @@ import Section1 from './section1'
 import NavSection from './navsection'
 import Link from 'next/link'
 import {useRouter} from 'next/router'
+import Image from 'next/image'
 
 export default function Layout({children, home}){
 
@@ -17,6 +18,11 @@ export default function Layout({children, home}){
 
     return (
         <body>
+			<Image
+			src='/images/background.png'
+			layout='fill'
+			className={styles.background}
+			/>
         <header>
 		  <nav className={styles.nav}>
 			<div className={isActive('/') ? styles.logoActive : styles.logo}>
