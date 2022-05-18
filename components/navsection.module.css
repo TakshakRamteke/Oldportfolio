@@ -1,64 +1,67 @@
-.sec2{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex: 1 1 0px;
-    width: 20%;
-    height: inherit;
-    border: .5px solid black;
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1 1 0px;
+  width: 20%;
+  height: inherit;
+  border: 0.5px solid black;
+  background-color: white;
+  z-index: 10;
 }
-.row{
-    line-height: .9;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    height: 25%;
-    border-bottom: 2px solid black;
+.row {
+  line-height: 0.9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 25%;
+  border-bottom: 2px solid black;
+  z-index: 10;
 }
-.row:last-child{
-    border-bottom: 0;
+.row:last-child {
+  border-bottom: 0;
 }
-.linktext{
-    padding: 12px 12px 12px 12px;
-    font-size: 1.8em;
-    font-weight: bolder;
+.linktext {
+  padding: 12px 12px 12px 12px;
+  font-size: 1.8em;
+  font-weight: bolder;
 }
-.active{
-    padding: 12px 12px 12px 12px;
-    font-size: 1.8em;
-    font-weight: bolder;
-    color: rgb(64, 64, 235);
+.active {
+  padding: 12px 12px 12px 12px;
+  font-size: 1.8em;
+  font-weight: bolder;
+  color: rgb(64, 64, 235);
 }
-.linktext:hover{
-    color: rgb(64, 64, 235);
+.linktext:hover {
+  color: rgb(64, 64, 235);
 }
 
-@media screen and (max-width: 786px){
-    .sec2{
-        width: 100%;
-        height: 3em;
-        flex-direction: row;
-        border: 0 none;
-    }
-    .row:first-child{
-        border-left: 1px solid black;
-    }
-    .row{
-        width: 25%;
-        height: 3em;
-        border-bottom: 1px solid black;
-        border-right: 1px solid black;
-    }
-    .linktext{
-        font-size: .7em;
-    }
-    .active{
-        font-size: .7em;
-    }
-    .row:last-child{
-        border-bottom: 1px solid black;
-    }
+@media screen and (max-width: 786px) {
+  .sec2 {
+    width: 100%;
+    height: 3em;
+    flex-direction: row;
+    border: 0 none;
+  }
+  .row:first-child {
+    border-left: 1px solid black;
+  }
+  .row {
+    width: 25%;
+    height: 3em;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+  }
+  .linktext {
+    font-size: 0.7em;
+  }
+  .active {
+    font-size: 0.7em;
+  }
+  .row:last-child {
+    border-bottom: 1px solid black;
+  }
 }
