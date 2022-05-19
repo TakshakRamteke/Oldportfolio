@@ -1,12 +1,17 @@
-.contactContainer{
-    margin-top: 1em;
-    padding: .3em .3em .3em .3em;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    /*border: 1px solid black;
+.contactContainer {
+  margin-top: 1em;
+  padding: 0.3em 0.3em 0.3em 0.3em;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  /*border: 1px solid black;
     box-shadow: 8px 8px 0px black;*/
 }
-.contactContainerElement{
-    padding: .5em .5em .5em .5em;
+.contactContainerElement {
+  padding: 1em 1em 1em 1em;
+  background-color: black;
+}
+.icon {
+  font-size: 3em;
+  color: white;
 }
