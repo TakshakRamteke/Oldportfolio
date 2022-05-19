@@ -1,88 +1,96 @@
-.headingXL{
-    padding-top: .3em;
-    font-size: 4.5em;
-    font-weight: 700;
-    color: rgb(64, 64, 235);
+.headingXL {
+  padding-top: 0.3em;
+  font-size: 4.5em;
+  font-weight: 700;
+  color: rgb(64, 64, 235);
+  z-index: 10;
 }
-.headingL{
-    padding-top: .3em;
-    font-size: 2.7em;
-    font-weight: 700;
-    color: black;
+.headingL {
+  padding-top: 0.3em;
+  font-size: 2.7em;
+  font-weight: 700;
+  color: black;
+  z-index: 10;
 }
-.headingM{
-    padding-top: .5em;
-    font-size: 2.3em;
-    font-weight: bold;
-    color: black;
+.headingM {
+  padding-top: 0.5em;
+  font-size: 2.3em;
+  font-weight: bold;
+  color: black;
+  z-index: 10;
 }
-.headingSCenter{
-    text-align: center;
-    padding-top: .5em;
-    padding-bottom: 1em;
-    font-size: 2.3em;
-    color: black;
+.headingSCenter {
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  font-size: 2.3em;
+  color: black;
+  z-index: 10;
 }
-.tagline{
-    padding-top: 1em;
-    font-size: 2em;
-    color: black;
-    -webkit-text-stroke: 1px black;
+.tagline {
+  padding-top: 1em;
+  font-size: 2em;
+  color: black;
+  -webkit-text-stroke: 1px black;
+  z-index: 10;
 }
-.taglineS{
-    list-style: none;
-    padding: 5em 5em 1em 5em;
-    text-align: justify;
-    padding-top: 1em;
-    line-height: 1.5;
-    font-size: 1.3em;
-    color: black;
+.taglineS {
+  list-style: none;
+  padding: 5em 5em 1em 5em;
+  text-align: justify;
+  padding-top: 1em;
+  line-height: 1.5;
+  font-size: 1.3em;
+  color: black;
+  z-index: 10;
 }
-.dripyHeading{
-    text-align: center;
-    font-size: 2.8em;
-    color: white;
-    padding: 3px 3px 3px 3px;
-    background-color: black;
-    border: 1px solid black;
+.dripyHeading {
+  text-align: center;
+  font-size: 2.8em;
+  color: white;
+  padding: 3px 3px 3px 3px;
+  background-color: black;
+  border: 1px solid black;
+  z-index: 10;
 }
-.link{
-    color: rgb(64, 64, 235);
+.link {
+  color: rgb(64, 64, 235);
 }
-.paragraph{
-    padding: 5em 5em 1em 5em;
-    text-align: justify;
-    padding-top: 1em;
-    line-height: 1.5;
-    font-size: 1.7em;
-    color: black;
+.paragraph {
+  padding: 5em 5em 1em 5em;
+  text-align: justify;
+  padding-top: 1em;
+  line-height: 1.5;
+  font-size: 1.7em;
+  color: black;
+  z-index: 10;
 }
 @media screen and (max-width: 786px) {
-    .headingXL{
-        font-size: 2.5em;
-    }
-    .headingM{
-        font-size: 1.8em;
-    }
-    .headingSCenter{
-        font-size: 1.5em;
-        padding-bottom: .7em;
-    }
-    .tagline{
-        font-size: 1.5em;
-    }
-    .headingL{
-        font-size: 1.7em;
-    }
-    .taglineS{
-        padding: 1em 2em 0em 2em;
-        font-size: .8em;
-    }
-    .paragraph{
-        padding: 1em 2em 0em 2em;
-        font-size: 1.2em;
-    }
-    .dripyHeading{
-        font-size: 1.4em;
-    }
+  .headingXL {
+    font-size: 2.5em;
+  }
+  .headingM {
+    font-size: 1.8em;
+  }
+  .headingSCenter {
+    font-size: 1.5em;
+    padding-bottom: 0.7em;
+  }
+  .tagline {
+    font-size: 1.5em;
+  }
+  .headingL {
+    font-size: 1.7em;
+  }
+  .taglineS {
+    padding: 1em 2em 0em 2em;
+    font-size: 0.8em;
+  }
+  .paragraph {
+    padding: 1em 2em 0em 2em;
+    font-size: 1.2em;
+  }
+  .dripyHeading {
+    font-size: 1.4em;
+  }
 }

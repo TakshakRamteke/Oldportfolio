@@ -10,13 +10,14 @@
   z-index: 10;
 }
 .row {
+  padding-left: 2em;
   line-height: 0.9;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   height: 25%;
   border-bottom: 2px solid black;
   z-index: 10;
@@ -45,6 +46,7 @@
     height: 3em;
     flex-direction: row;
     border: 0 none;
+    z-index: 10;
   }
   .row:first-child {
     border-left: 1px solid black;
@@ -54,6 +56,12 @@
     height: 3em;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0;
+    z-index: 10;
   }
   .linktext {
     font-size: 0.7em;
@@ -63,5 +71,6 @@
   }
   .row:last-child {
     border-bottom: 1px solid black;
+    z-index: 10;
   }
 }
