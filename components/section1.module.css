@@ -1,24 +1,27 @@
-.sec1{
-    width: 80%;
-    height: inherit;
-    border: 1px solid black;
-  }
-.love{
+.sec1 {
+  width: 80%;
+  height: inherit;
+  border: 1px solid black;
+  z-index: 10;
+}
+.love {
   font-size: 1.3em;
   text-align: center;
+  z-index: 10;
 }
-  @media screen and (max-width: 786px){
-    .sec1{
-        width: 100%;
-        border-top: 0 none;
-    }
+@media screen and (max-width: 786px) {
+  .sec1 {
+    width: 100%;
+    border-top: 0 none;
   }
-  @media screen and (max-height: 699px) {
-    .sec1{
-      overflow-x: scroll;
-      overflow-y: hidden;
-    }
-    .love{
-      font-size: .9em;
-    }
+}
+@media screen and (max-height: 699px) {
+  .sec1 {
+    overflow-x: scroll;
+    overflow-y: hidden;
   }
+  .love {
+    font-size: 0.9em;
+    z-index: 10;
+  }
+}

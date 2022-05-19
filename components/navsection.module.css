@@ -46,6 +46,7 @@
     height: 3em;
     flex-direction: row;
     border: 0 none;
+    z-index: 10;
   }
   .row:first-child {
     border-left: 1px solid black;
@@ -60,6 +61,7 @@
     flex-direction: column;
     text-align: center;
     padding-left: 0;
+    z-index: 10;
   }
   .linktext {
     font-size: 0.7em;
@@ -69,5 +71,6 @@
   }
   .row:last-child {
     border-bottom: 1px solid black;
+    z-index: 10;
   }
 }
