@@ -10,7 +10,7 @@ This is the portfolio i currently use made with [Next.js](https://nextjs.org/) â
 
 Or 
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TakshakRamteke/portfolio)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TakshakRamteke/Oldportfolio)
 
 ## Deploy ðŸš€
 
