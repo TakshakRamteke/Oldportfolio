@@ -1,12 +1,133 @@
-.contactContainer{
-    margin-top: 1em;
-    padding: .3em .3em .3em .3em;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    /*border: 1px solid black;
-    box-shadow: 8px 8px 0px black;*/
+.contactContainer {
+	margin-top: 3rem;
+	padding: 0.3em 0.3em 0.3em 0.3em;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	/*border: 1px solid black;
+   box-shadow: 8px 8px 0px black;*/
 }
-.contactContainerElement{
-    padding: .5em .5em .5em .5em;
+.contactContainerElement {
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.form {
+	width: 70%;
+	height: 22rem;
+	position: relative;
+	padding: 30px;
+	/* padding-bottom: 5px; */
+	background: #fff;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	font-size: 1.8rem;
+	font-weight: 200;
+	border: 2px solid black;
+	box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 1);
+	-webkit-box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 1);
+	/* background-color: red; */
+}
+
+.form h1 {
+	margin-bottom: 1rem;
+	font-weight: 200;
+}
+.form-group {
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.form button {
+	/* position: absolute; */
+	z-index: 111;
+	background-color: black;
+	color: white;
+	border-radius: 1.2rem;
+	position: absolute;
+	right: 2%;
+	bottom: 15%;
+	font-size: 1.5rem;
+	outline: none;
+	padding: 0.1rem 1.4rem;
+}
+.content {
+	position: absolute;
+}
+
+.form input {
+	outline: 1px solid black;
+	margin-bottom: 0.8rem;
+	width: 25rem;
+	padding: 0.3rem;
+	font-size: 0.8rem;
+}
+.form textarea {
+	outline: 1px solid black;
+	max-width: 35rem;
+	max-height: 7rem;
+	min-width: 35rem;
+	min-height: 7rem;
+	transform: translateX(25%);
+	padding: 0.3rem;
+	font-size: 0.8rem;
+}
+
+@media screen and (max-width: 786px) {
+	.contactContainer {
+		margin-top: 3rem;
+		padding: 0.3em 0.3em 0.3em 0.3em;
+	}
+	.contactContainerElement {
+		padding: 0.5em 0.5em 0.5em 0.5em;
+	}
+	.form {
+		width: 90%;
+		height: 38rem;
+		padding: 30px;
+		margin-top: 3rem;
+		margin-bottom: 2rem;
+		font-size: 1.8rem;
+		font-weight: 200;
+	}
+
+	.form h1 {
+		margin-bottom: 1rem;
+		font-weight: 200;
+	}
+	.form-group {
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+	}
+
+	.form button {
+		/* position: absolute; */
+		border-radius: 1.2rem;
+		left: 2%;
+		bottom: 2%;
+		font-size: 1.5rem;
+		padding: 0.1rem 1.4rem;
+		max-width: 80%;
+		margin: 0 auto;
+	}
+
+	.form input {
+		margin-bottom: 0.8rem;
+		/* width: 25rem; */
+		width: 100%;
+		padding: 0.3rem;
+		font-size: 0.8rem;
+	}
+	.form textarea {
+		max-width: 40%;
+		max-height: 7rem;
+		min-width: 83.5%;
+		min-height: 7rem;
+		transform: translateX(0%);
+		position: absolute;
+		bottom: 12%;
+		padding: 0.3rem;
+		font-size: 0.8rem;
+	}
 }
